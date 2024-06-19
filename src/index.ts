@@ -9,7 +9,7 @@ songTitles = [];
 for (let titles = 1; titles <= 5; titles++) {
   songTitles.push(askUser(`titulo ${titles}:`));
 }
-positionSong = Number(askUser("introduce una posición: npm"));
+positionSong = Number(askUser("introduce una posición: "));
 
 switch (positionSong) {
   case 1:
